@@ -1,4 +1,4 @@
-# multipart-parse
+# multipart-raw
 
 A Typescript lib multipart/form-data parser which operates on raw data.
 Forked from [freesoftwarefactory/parse-multipart](https://github.com/freesoftwarefactory/parse-multipart)
@@ -62,7 +62,7 @@ hello how are you
 Now, having this two key values then you can implement it:
 
 ```typescript
-const multipart = require('multipart-parse');
+const multipart = require('multipart-raw');
 const body = "..the multipart raw body..";
 const boundary = "----WebKitFormBoundaryDtbT5UpPj83kllfw";
 const parts = multipart.parse(body,boundary);

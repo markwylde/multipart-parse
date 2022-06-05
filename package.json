@@ -1,5 +1,5 @@
 {
-  "name": "multipart-parse",
+  "name": "multipart-raw",
   "type": "module",
   "version": "1.0.0",
   "description": "A javascript/nodejs multipart/form-data parser which operates on raw data.",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/markwylde/multipart-parse.git"
+    "url": "https://github.com/markwylde/multipart-raw.git"
   },
   "keywords": [
     "multipart/form-data",
@@ -19,9 +19,9 @@
     "fileuploader"
   ],
   "bugs": {
-    "url": "https://github.com/markwylde/multipart-parse/issues"
+    "url": "https://github.com/markwylde/multipart-raw/issues"
   },
-  "homepage": "https://github.com/markwylde/multipart-parse#readme",
+  "homepage": "https://github.com/markwylde/multipart-raw#readme",
   "devDependencies": {
     "basictap": "^3.2.3"
   }
